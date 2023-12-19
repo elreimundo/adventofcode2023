@@ -1,6 +1,6 @@
 import os
 
-from .orchestrator import orchestrate, Strategy
+from src.orchestrator import orchestrate, Strategy
 
 inputs = open(os.path.join(os.path.dirname(__file__), "calibration.my_data"), "r").readlines()
 

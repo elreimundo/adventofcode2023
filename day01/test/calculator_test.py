@@ -1,4 +1,4 @@
-from day01.calculator import calculate
+from day01.src.calculator import calculate
 
 def test_calculate():
 	assert(calculate([1,2,3,4,5]) == 15)

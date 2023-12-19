@@ -1,4 +1,4 @@
-from day01.orchestrator import orchestrate, Strategy
+from day01.src.orchestrator import orchestrate, Strategy
 
 def test_orchestrate():
 	assert(
