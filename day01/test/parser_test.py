@@ -1,4 +1,4 @@
-from parser import parse, parse_with_literals
+from day01.parser import parse, parse_with_literals
 
 def test_parse():
 	assert(parse("15") == 15)

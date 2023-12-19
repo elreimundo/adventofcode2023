@@ -1,5 +1,5 @@
-from parser import parse, parse_with_literals
-from calculator import calculate
+from .parser import parse, parse_with_literals
+from .calculator import calculate
 
 from typing import List
 from enum import Enum
