@@ -14,3 +14,9 @@ class Game:
 			if color not in other_game.bag or self.bag[color] > other_game.bag[color]:
 				return False
 		return True
+
+	def calculate_power(self):
+		power = 1
+		for color in self.bag:
+			power *= self.bag[color]
+		return power
